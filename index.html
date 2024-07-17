@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H2 Search Engine</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .hidden {
+            display: none;
+        }
+        .result {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <a href="index.html"><img src="img/WhatsApp Görsel 2024-07-17 saat 16.37.38_4c48c1a5.jpg" alt=""></a>
+    <!-- Arama giriş kutusu, keydown olayını dinler -->
+    <input type="text" id="searchInput" placeholder="Dizi, Film ara...">
+    
+    
+
+</div>
+    <!-- Arama sonuçlarını göstermek için div -->
+    <div id="results" class="hidden"></div>
+
+    <button id="btn">
+        ☰
+      </button>
+      
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html">Anasayfa</a></li>
+          <li><a href="/">Diziler</a></li>
+          <li><a href="/">Filmler</a></li>
+          <li><a href="/">Yakında</a></li>
+          <li><a href="/">İletişim</a></li>
+        </ul>
+      </nav>
+      
+      <script src="script.js"></script>
+      
+    <!-- İçerik div'i, burada arama yapılacak h2 ve diğer elementler yer alır -->
+     <h1>Diziler</h1>
+    <div class="content">
+        <div>
+         <a href="#"><img src="img/2661044.jpg" alt=""></a>
+         <h2>The 100</h2>
+        </div>
+        <div>
+           <a href="#"><img src="img/arrow-ver25-xlg-1507131473261.jpg" alt=""></a>
+           <h2>Arrow</h2>
+        </div>
+        <div>
+            <a href="#"><img src="img/rick-ve-morty.jpg" alt=""></a>
+            <h2>Rick And <br> Morty</h2>
+        </div>
+        <div>
+            <a href="#"><img src="img/theflashposterlaternaterealitycheck-168066_d6d6.jpg" alt=""></a>
+            <h2>The Flash</h2>
+        </div>
+        <div>
+            <a href="#"><img src="img/1_OmNuFF-jL6gjHS-UqJdlPQ.jpg" alt=""></a>
+            <h2>Lucifer</h2>
+        </div>
+    </div>
+
+    <!-- JavaScript dosyasını bağlar -->
+    <script src="index.js"></script>
+</body>
+</html>

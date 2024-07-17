@@ -1,0 +1,96 @@
+
+body {
+    background-color: black;
+}
+
+h2 {
+    color: white;
+}
+
+img {
+    width: 100px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+#searchInput {
+    width: 120px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.content {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: block;
+}
+
+#results {
+    margin-bottom: 200px;
+    background-color: purple;
+    width: 140px;
+    text-align: center;
+    margin-left: 112px;
+    
+}
+
+
+h1 {
+    color: white;
+}
+
+/* hamburger */
+
+  
+  
+  button {
+    background-color: purple;
+    border: none;
+    outline: none;
+    color: white;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.4s ease;
+  }
+  
+  button.active {
+    transform: translateX(-100px);
+  }
+  
+  nav {
+    background-color: purple;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding: 2rem;
+    transform: translateX(100%);
+    transition: 0.4s ease;
+  }
+  
+  nav.active {
+    transform: translateX(0);
+  }
+  
+  nav ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    list-style-type: none;
+    padding: 1rem 0;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
